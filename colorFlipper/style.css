@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f5f8;
+}
+
+
+nav{
+    height: 7vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    box-shadow: 6px 3px 6px rgb(175, 173, 173);
+}
+
+nav h4{
+    color: rgba(128, 91, 230, 0.808);
+    letter-spacing: 4px;
+    font-size: 1.3rem;
+}
+
+.nav-center{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin-right: 2rem;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+a{
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+}
+
+main{
+    height: 90vh;
+    width: 100vw;
+}
+
+main .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .container h2{
+    height: 12%;
+    background-color: #000;
+    color: #fff;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+    border-radius: .6rem;
+}
+
+.main h2 > .color{
+    color: blue;
+}
+
+main button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+    margin-top: 2rem;
+    width: 7rem;
+    background-color: transparent;
+    border-radius: .4rem;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: all .5s ease-in-out;
+}
+
+main button:hover{
+    background-color: #000;
+    color: #fff;
+}
